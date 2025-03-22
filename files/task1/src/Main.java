@@ -1,3 +1,4 @@
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -20,8 +21,8 @@ public class Main {
         } else {
             log.append(LocalTime.now() + " [ERROR] " + "Папки и файлы не созданы");
         }
-        try (FileWriter writer = new FileWriter(new File(PATH + "\\temp", "temp.txt"))) {
-            writer.write(log.toString());
+        try (BufferedWriter bw = new BufferedWriter (new FileWriter(new File(PATH + "\\temp", "temp.txt")))) {
+            bw.write(log.toString());
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
