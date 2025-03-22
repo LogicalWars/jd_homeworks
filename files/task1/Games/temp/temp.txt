@@ -1,0 +1,12 @@
+18:08:42.883509 [ERROR] Директория "src" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games
+18:08:42.893511200 [ERROR] Директория "res" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games
+18:08:42.893511200 [ERROR] Директория "savegames" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games
+18:08:42.893511200 [ERROR] Директория "temp" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games
+18:08:42.893511200 [ERROR] Директория "main" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games\src
+18:08:42.893511200 [ERROR] Директория "test" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games\src
+18:08:42.893511200 [ERROR] Файл "Main.java" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games\src\main
+18:08:42.893511200 [ERROR] Файл "Utils.java" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games\src\main
+18:08:42.893511200 [ERROR] Директория "drawables" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games\res
+18:08:42.893511200 [ERROR] Директория "vectors" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games\res
+18:08:42.893511200 [ERROR] Директория "icons" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games\res
+18:08:42.893511200 [INFO] Папки и файлы успешно созданы
