@@ -1,12 +1,29 @@
-18:11:02.321989400 [INFO] Директория "src" создана по пути: D:\Projects\jd_homeworks\files\task1\Games
-18:11:02.332992200 [INFO] Директория "res" создана по пути: D:\Projects\jd_homeworks\files\task1\Games
-18:11:02.332992200 [INFO] Директория "savegames" создана по пути: D:\Projects\jd_homeworks\files\task1\Games
-18:11:02.333992400 [INFO] Директория "temp" создана по пути: D:\Projects\jd_homeworks\files\task1\Games
-18:11:02.333992400 [INFO] Директория "main" создана по пути: D:\Projects\jd_homeworks\files\task1\Games\src
-18:11:02.333992400 [INFO] Директория "test" создана по пути: D:\Projects\jd_homeworks\files\task1\Games\src
-18:11:02.333992400 [INFO] Файл "Main.java" создан по пути: D:\Projects\jd_homeworks\files\task1\Games\src\main
-18:11:02.334992600 [INFO] Файл "Utils.java" создан по пути: D:\Projects\jd_homeworks\files\task1\Games\src\main
-18:11:02.334992600 [INFO] Директория "drawables" создана по пути: D:\Projects\jd_homeworks\files\task1\Games\res
-18:11:02.334992600 [INFO] Директория "vectors" создана по пути: D:\Projects\jd_homeworks\files\task1\Games\res
-18:11:02.334992600 [INFO] Директория "icons" создана по пути: D:\Projects\jd_homeworks\files\task1\Games\res
-18:11:02.334992600 [INFO] Папки и файлы успешно созданы
+19:24:00.127463800 [INFO] Директория "res" создана по пути: D:\Projects\jd_homeworks\files\task1\Games
+19:24:00.127463800 [INFO] Директория "savegames" создана по пути: D:\Projects\jd_homeworks\files\task1\Games
+19:24:00.128464200 [INFO] Директория "main" создана по пути: D:\Projects\jd_homeworks\files\task1\Games\src
+19:24:00.128464200 [INFO] Директория "test" создана по пути: D:\Projects\jd_homeworks\files\task1\Games\src
+19:24:00.129464 [INFO] Директория "drawables" создана по пути: D:\Projects\jd_homeworks\files\task1\Games\res
+19:24:00.129464 [INFO] Директория "vectors" создана по пути: D:\Projects\jd_homeworks\files\task1\Games\res
+19:24:00.134465300 [INFO] Директория "icons" создана по пути: D:\Projects\jd_homeworks\files\task1\Games\res
+19:24:00.135465400 [INFO] Файл "Main.java" создан по пути: D:\Projects\jd_homeworks\files\task1\Games\src\main
+19:24:00.136465500 [INFO] Файл "Utils.java" создан по пути: D:\Projects\jd_homeworks\files\task1\Games\src\main
+19:24:02.640487400 [WARNING] Директория "src" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games
+19:24:02.651490400 [WARNING] Директория "res" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games
+19:24:02.652490 [WARNING] Директория "savegames" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games
+19:24:02.652490 [WARNING] Директория "main" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games\src
+19:24:02.652490 [WARNING] Директория "test" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games\src
+19:24:02.653490100 [WARNING] Директория "drawables" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games\res
+19:24:02.653490100 [WARNING] Директория "vectors" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games\res
+19:24:02.653490100 [WARNING] Директория "icons" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games\res
+19:24:02.653490100 [WARNING] Файл "Main.java" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games\src\main
+19:24:02.654490400 [WARNING] Файл "Utils.java" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games\src\main
+19:24:08.909783900 [WARNING] Директория "src" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games
+19:24:08.920786300 [WARNING] Директория "res" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games
+19:24:08.920786300 [WARNING] Директория "savegames" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games
+19:24:08.920786300 [WARNING] Директория "main" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games\src
+19:24:08.921786600 [WARNING] Директория "test" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games\src
+19:24:08.921786600 [WARNING] Директория "drawables" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games\res
+19:24:08.921786600 [WARNING] Директория "vectors" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games\res
+19:24:08.922787 [WARNING] Директория "icons" уже существует по пути: D:\Projects\jd_homeworks\files\task1\Games\res
+19:24:08.922787 [ERROR] Файл "Main.java Не создан. java.io.IOException: The system cannot find the path specified
+19:24:08.923787100 [ERROR] Файл "Utils.java Не создан. java.io.IOException: The system cannot find the path specified
