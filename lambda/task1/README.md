@@ -27,7 +27,7 @@ Consumer<Integer> println = System.out::println;
 ```
 
 ## Реализация
-В классе `Main` в методе `main()` создайте экземпляр класса `Calculator` через вызов статической переменной `instance`:
+В классе `Server` в методе `main()` создайте экземпляр класса `Calculator` через вызов статической переменной `instance`:
 ```java
 Calculator calc = Calculator.instance.get();
 ```
