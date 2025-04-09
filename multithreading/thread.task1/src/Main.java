@@ -1,17 +1,19 @@
 import java.util.*;
+import java.util.concurrent.*;
 
 public class Main {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException, ExecutionException {
         String[] texts = new String[25];
         for (int i = 0; i < texts.length; i++) {
             texts[i] = generateText("aab", 30_000);
         }
 
         long startTs = System.currentTimeMillis(); // start time
-        List<Thread> threads = new ArrayList<>();
+        final ExecutorService threadPool = Executors.newFixedThreadPool(25);
+        List<Future<Integer>> threads = new ArrayList<>();
         for (String text : texts) {
-            Thread thread = new Thread(() -> {
+            Callable<Integer> callable = () -> {
                 int maxSize = 0;
                 for (int i = 0; i < text.length(); i++) {
                     for (int j = 0; j < text.length(); j++) {
@@ -30,15 +32,18 @@ public class Main {
                         }
                     }
                 }
-                System.out.println(text.substring(0, 100) + " -> " + maxSize);
-            });
-            threads.add(thread);
-            thread.start();
+                return maxSize;
+            };
+            threads.add(threadPool.submit(callable));
         }
-        for (Thread thread : threads) {
-            thread.join();
+        int maxValue = 0;
+        for (Future<Integer> future : threads) {
+            int result = future.get();
+            if (maxValue < result) {
+                maxValue = result;
+            }
         }
-
+        System.out.printf("Максимальный интервал значений среди всех строк: %d%n", maxValue);
         long endTs = System.currentTimeMillis(); // end time
 
         System.out.println("Time: " + (endTs - startTs) + "ms");
