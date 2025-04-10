@@ -43,6 +43,7 @@ public class Main {
                 maxValue = result;
             }
         }
+        threadPool.shutdown();
         System.out.printf("Максимальный интервал значений среди всех строк: %d%n", maxValue);
         long endTs = System.currentTimeMillis(); // end time
 
